@@ -2,7 +2,7 @@
 
 ## About
 
-This script converts a DialogFlow CX agent into a CSV file.
+This script converts an export of a DialogFlow CX agent into a CSV file.
 
 It extracts all intents, training phrases, and responses from the DialogFlow CX agent. However, conditional responses are not supported.
 
