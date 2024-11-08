@@ -15,15 +15,7 @@ The CSV will be generated in the following format:
 
 ## Getting Started
 
-Ensure that Node.js is installed on the machine running this script. If Node.js is not installed, it can be downloaded from:
-
-https://nodejs.org/en
-
-Open a terminal in the root of this folder and type the following command to install the required packages:
-
-`npm ci`
-
-Once installed, ensure that the following two folders are created in the root of this folder:
+Once installed, ensure that the following two folders are created in the root folder:
 
 ./export
 ./output
