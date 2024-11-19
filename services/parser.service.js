@@ -55,7 +55,7 @@ module.exports = class ParserService {
                 try {
                   const jsonData = JSON.parse(data);
                   for (let i = 0; i < jsonData.trainingPhrases.length; i++) {
-                    intent.trainingPhrases.push(jsonData.trainingPhrases[i].parts[0].text);
+                    intent.trainingPhrases.push(jsonData.trainingPhrases[i].parts.map(p => p.text).join(''));
                   }
                 } catch (parseErr) {
                   console.error(`Error parsing JSON from file ${filePath}: `, parseErr);
